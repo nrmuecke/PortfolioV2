@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.custom-select {
+  background-color: #36454f; /* Charcoal Gray */
+  color: #f5f5f5; /* Off-White */
+  border-color: #008080; /* Teal */
+}
+.custom-select:focus {
+  border-color: #d4af37; /* Soft Gold */
+  ring-color: #d4af37; /* Soft Gold */
+}
