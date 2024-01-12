@@ -16,7 +16,9 @@
     <nav class="w-full relative">
       <!-- Flex Container -->
       <div class="flex items-center justify-between bg-gray-800 h-10">
-        <h2 class="font-bold text-slate-100 pl-5">Nathan Muecke</h2>
+        <a href="index.html" class="text-slate-200 pl-5 font-bold"
+          >Nathan Muecke</a
+        >
         <div class="flex space-x-6 pr-7">
           <a href="#aboutMe" class="text-teal-600 hover:text-teal-400"
             >About Me</a
@@ -31,7 +33,7 @@
     <header>
       <div
         id="intro"
-        class="text-slate-100 text-center text-4xl pt-10 bg-gray-900"
+        class="text-slate-200 text-center text-4xl pt-10 bg-gray-900"
       >
         <h1>Hi I'm Nathan</h1>
         <h1>Welcome to my Portfolio!</h1>
@@ -45,7 +47,7 @@
       >
         <select
           id="select"
-          class="bg-gray-800 text-white border rounded-md p-2 hover:border-teal-400 mb-5 border-teal-600 focus:ring-opacity-50"
+          class="bg-gray-800 text-slate-200 border rounded-md p-2 hover:border-teal-400 mb-5 border-teal-600 focus:ring-opacity-50"
         >
           <option value="headliner">Current Headliner</option>
           <option value="jspractice">JavaScript</option>
@@ -55,16 +57,15 @@
       </div>
       <!-- Project area -->
       <div
-        class="flex items-center justify-center flex-wrap space-x-4 space-y-4 bg-gray-900"
+        class="flex flex-row items-center justify-center flex-wrap space-x-4 space-y-4 bg-gray-900 mx-2 lg:mx-24 xl:mx-46"
       >
         <!-- Project Tile RMI -->
         <div
           id="headliner"
-          class="headliner border-2 border-teal-600 hover:border-softGold rounded-md"
+          class="headliner border-2 border-teal-600 hover:border-softGold rounded-md w-full md:w-7/12 lg:w-6/12 xl:w-5/12"
         >
           <a href="https://randommagicitems.com/" target="_blank"
             ><img
-              style="width: 400px; height: 304px"
               src="img/randommagicitems.png"
               alt="Screenshot of Random Magic Items Website"
           /></a>
@@ -144,7 +145,7 @@
         <!-- Project Tile Elminster -->
         <div
           id="Elminster"
-          class="rawhtmlcss hidden border-2 border-teal-600 hover:border-softGold rounded-md"
+          class="hidden rawhtmlcss border-2 border-teal-600 hover:border-softGold rounded-md"
         >
           <a
             href="https://nrmuecke.github.io/tributepage/tribute.html"
@@ -158,7 +159,7 @@
         <!-- Project Tile Practice documentation html -->
         <div
           id="practiceDocumentation"
-          class="rawhtmlcss hidden border-2 border-teal-600 hover:border-softGold rounded-md"
+          class="hidden rawhtmlcss border-2 border-teal-600 hover:border-softGold rounded-md"
         >
           <a href="https://nrmuecke.github.io/testdoc/doc.html" target="_blank"
             ><img
@@ -170,7 +171,7 @@
         <!-- Project Tile Magic Items Storefront -->
         <div
           id="magicStore"
-          class="rawhtmlcss hidden border-2 border-teal-600 hover:border-softGold rounded-md"
+          class="hidden rawhtmlcss border-2 border-teal-600 hover:border-softGold rounded-md"
         >
           <a
             href="https://nrmuecke.github.io/magical-items-store/magicproducts.html"
@@ -199,10 +200,10 @@
       <!-- About Me Section -->
       <div
         id="aboutMe"
-        class="text-slate-100 text-center pt-10 bg-gray-900 pb-10"
+        class="text-slate-200 text-center pt-10 bg-gray-900 pb-10 mx-12 md:mx-36 lg:mx-44 xl:mx-74"
       >
         <h2 class="pb-5">About Me</h2>
-        <p class="mx-20">
+        <p>
           Over the last three years, I have channeled my passion for technology
           and problem-solving into the realm of web development. This
           self-directed journey in programming has led me to become proficient
@@ -216,9 +217,8 @@
       </div>
       <!-- Footer -->
       <div
-        style="padding-bottom: 24px"
         id="footer"
-        class="flex items-center justify-center flex-wrap pt-10"
+        class="flex items-center justify-center flex-wrap pt-6 pb-6 bg-slate-700"
       >
         <div style="padding-left: 10px; padding-right: 10px">
           <a
@@ -231,9 +231,7 @@
           /></a>
         </div>
         <div style="padding-left: 10px; padding-right: 10px">
-          <a
-            href="https://www.linkedin.com/in/nathan-muecke-b58908111/"
-            target="_blank"
+          <a href="https://github.com/nrmuecke" target="_blank"
             ><img
               style="width: 75px; height: 75px"
               src="img/github.svg"
