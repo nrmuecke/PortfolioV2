@@ -5,12 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "tailwindcss -i ./input.css -o ./css/main.css",
-    "watch": "tailwindcss -i ./input.css -o ./css/main.css --watch",
-    "build:digitalocean": "npm install --production=false && npm run build && npm ci"
-  },
-  "engines": {
-    "node": "16.x",
-    "npm": "7.x"
+    "watch": "tailwindcss -i ./input.css -o ./css/main.css --watch"
   },
   "keywords": [],
   "author": "",
