@@ -11,12 +11,14 @@
     <title>Nathan Muecke's Portfolio</title>
     <link rel="stylesheet" href="css/style.css" />
   </head>
-  <body class="bg-gray-900">
+  <!-- dark:bg-gray-900 -->
+  <body class="bg-white">
     <!-- Navbar -->
     <nav class="w-full relative">
       <!-- Flex Container -->
-      <div class="flex items-center justify-between bg-gray-800 h-10">
-        <a href="index.html" class="text-slate-200 pl-5 font-bold"
+      <!-- dark:bg-gray-800 text-slate-200 -->
+      <div class="flex items-center justify-between bg-slate-100 h-10">
+        <a href="index.html" class="text-slate-900 pl-5 font-bold"
           >Nathan Muecke</a
         >
         <div class="flex space-x-6 pr-7">
@@ -31,9 +33,10 @@
     </nav>
     <!-- Intro -->
     <header>
+      <!-- dark:bg-gray-900 text-slate-200 -->
       <div
         id="intro"
-        class="text-slate-200 text-center text-4xl pt-10 bg-gray-900"
+        class="text-slate-900 text-center text-4xl pt-10 bg-white"
       >
         <h1>Hi I'm Nathan</h1>
         <h1>Welcome to my Portfolio!</h1>
@@ -41,13 +44,15 @@
     </header>
     <main>
       <!-- Select Menu -->
+      <!-- dark:bg-gray-900 -->
       <div
         id="dropdown"
-        class="flex justify-center items-center pt-10 bg-gray-900"
+        class="flex justify-center items-center pt-10 bg-white"
       >
+        <!-- dark: bg-gray-800 text-slate-200 -->
         <select
           id="select"
-          class="bg-gray-800 text-slate-200 border rounded-md p-2 hover:border-teal-400 mb-5 border-teal-600 focus:ring-opacity-50"
+          class="bg-slate-200 text-slate-900 border rounded-md p-2 hover:border-teal-400 mb-5 border-teal-600 focus:ring-opacity-50"
         >
           <option value="headliner">Current Headliner</option>
           <option value="jspractice">JavaScript</option>
@@ -55,9 +60,47 @@
           <option value="tailwindpractice">Tailwind</option>
         </select>
       </div>
-      <!-- Project area -->
+      <!-- Project description area -->
       <div
-        class="flex flex-row items-center justify-center flex-wrap space-x-4 space-y-4 bg-gray-900 mx-2 lg:mx-24 xl:mx-46"
+        id="headlinerDescription"
+        class="headliner text-slate-900 text-center bg-white pb-5 mx-12 md:mx-24 lg:mx-32 xl:mx-72"
+      >
+        <h2>
+          This is a passion project I made completely from scratch using raw
+          html, css, and javascript. It's my first fullstack project and by far
+          the most complex. I learned a lot about APIs, asyncronous functions
+          and how to implement certain backend items with this project.
+        </h2>
+      </div>
+      <div
+        class="jspractice hidden text-slate-900 text-center bg-white pb-5 mx-12 md:mx-24 lg:mx-32 xl:mx-72"
+      >
+        <h2>
+          A simple collection of javascript practice projects. The first is a
+          fanpage I created based off Brandon Sanderson's novels. The rest are
+          some basic youtube tutorial projects.
+        </h2>
+      </div>
+      <div
+        class="rawhtmlcss hidden text-slate-900 text-center bg-white pb-5 mx-12 md:mx-24 lg:mx-32 xl:mx-72"
+      >
+        <h2>
+          These are some projects I made using only html/css while I was just
+          beginning to learn code.
+        </h2>
+      </div>
+      <div
+        class="tailwindpractice hidden text-slate-900 text-center bg-white pb-5 mx-12 md:mx-24 lg:mx-32 xl:mx-72"
+      >
+        <h2>
+          This is a mock website from a tutorial I followed along to learn
+          tailwind. Also this website is styled using tailwind!
+        </h2>
+      </div>
+      <!-- Project area -->
+      <!-- dark: bg-gray-900 -->
+      <div
+        class="flex flex-row items-center justify-center flex-wrap space-x-4 space-y-4 bg-white mx-2 lg:mx-24 xl:mx-46"
       >
         <!-- Project Tile RMI -->
         <div
@@ -198,11 +241,12 @@
         </div>
       </div>
       <!-- About Me Section -->
+      <!-- dark: text-slate-200 bg-gray-900 -->
       <div
         id="aboutMe"
-        class="text-slate-200 text-center pt-10 bg-gray-900 pb-10 mx-12 md:mx-36 lg:mx-44 xl:mx-74"
+        class="text-slate-900 text-center pt-10 bg-white pb-10 mx-12 md:mx-36 lg:mx-44 xl:mx-72"
       >
-        <h2 class="pb-5">About Me</h2>
+        <h2 class="pb-5 font-bold">About Me</h2>
         <p>
           During my nights and weekends, I have channeled my passion for
           technology and problem-solving into the realm of web development. This
@@ -216,9 +260,13 @@
         </p>
       </div>
       <!-- Footer -->
+      <!-- dark:bg-slate-700 -->
+      <div id="email" class="bg-slate-200 text-center">
+        <h2>Email: nrmuecke@gmail.com</h2>
+      </div>
       <div
         id="footer"
-        class="flex items-center justify-center flex-wrap pt-6 pb-6 bg-slate-700"
+        class="flex items-center justify-center flex-wrap pt-6 pb-6 bg-slate-200"
       >
         <div style="padding-left: 10px; padding-right: 10px">
           <a
